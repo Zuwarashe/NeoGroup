@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<header>
+  
+</header>
+<body>
+
+    <!-- ============================ Rotating Carousel =========================== -->
+    <!-- Rotating carousel section that displays different promotional pages. -->
+    <section class="headslider">
+
+      <video autoplay muted loop class="background-video">
+        <source src="background.mp4" type="video/mp4">
+        <!-- Add additional formats if necessary -->
+        Your browser does not support the video tag.
+      </video>
+
+      <carousel>
+        <input type="radio" id="page1cb" checked name="pages" />
+        <input type="radio" id="page2cb" name="pages" />
+        <input type="radio" id="page3cb" name="pages" />
+        <input type="radio" id="page4cb" name="pages" />
+        <input type="radio" id="page5cb" name="pages" />
+
+        <!-- page 1 -->
+        <page id="page1">
+            <div class="value">3000€</div>
+            <div>no Casino e Casino ao vivo + 100 Rodadas Grátis na</div>
+            <label for="page2cb" title="Start" class="link-label"><b>REGISTE-SE</b></label>
+        </page>
+
+        <!-- page 2 -->
+        <page id="page2">
+            <div class="value">3500€</div>
+            <div>Bônus para Cassino e Cassino Ao Vivo + 150 Rodadas Grátis</div>
+            <label for="page3cb" title="Next" class="link-label"><b>REGISTE-SE</b></label>
+        </page>
+
+        <!-- page 3 -->
+        <page id="page3">
+            <div class="value">2500€</div>
+            <div>Oferta Exclusiva: Cassino e Cassino Ao Vivo + 200 Giros Grátis</div>
+            <label for="page4cb" title="Next" class="link-label"><b>REGISTE-SE</b></label>
+        </page>
+
+        <!-- page 4 -->
+        <page id="page4">
+            <div class="value">4000€</div>
+            <div>Pacote de Boas-Vindas: Cassino + Apostas ao Vivo & 120 Free Spins!</div>
+            <label for="page5cb" title="Next" class="link-label"><b>REGISTE-SE</b></label>
+        </page>
+
+        <!-- page 5 -->
+        <page id="page5">
+            <div class="value">5000€</div>
+            <div>Bônus Imperdível: Cassino e Cassino Ao Vivo + 250 Rodadas Grátis</div>
+            <label for="page1cb" title="That's all folks!" class="link-label"><b>REGISTE-SE</b></label>
+        </page>
+      </carousel>
+    </section>
+    <!-- ============================ End Rotating Carousel =========================== -->
+
+    <!-- ============================ Three-Step Section =========================== -->
+    <!-- Section with buttons that guide the user through registration, deposit, and playing. -->
+    <section class="step-section">
+        <button class="button-register">
+            <p class="title">Registe-se</p>
+            <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" loading="lazy">
+            <p class="description">Junte-se à família Leon,<br> completando o
+              nosso processo <br> de registo
+              rápido e fácil.</p>
+        </button>
+
+        <button class="button-deposit">
+            <p class="title">Deposite</p>
+            <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Dollar%20Banknote.png" alt="Dollar Banknote" loading="lazy">
+            <p class="description">Conte com processamentos/<br>
+              métodos de pagamentos <br>rápidos e variados!</p>
+        </button>
+
+        <button class="button-play">
+            <p class="title">Jogue</p>
+            <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" loading="lazy">
+            <p class="description">A sua aventura pessoal<br>
+              na Leon começa a partir
+              daqui!<br></p>
+        </button>
+    </section>
+    <!-- ============================ End Three-Step Section =========================== -->
+
+    <!-- ============================ Parallax Section =========================== -->
+    <!-- Parallax effect section to display an action message. -->
+    <section class="page-break">
+        <div class="parallax-wrap">
+
+            <span value="-15"></span>
+            <span value="5"></span>
+            <span value="30"></span>
+            <span value="-5"></span>
+            <span value="15"></span>
+            <h2>A ação não para! Continue jogando e ganhando!</h2>
+
+        </div>
+    </section>
+    <!-- ============================ End Parallax Section =========================== -->
+
+    <!-- ============================ Cards Section =========================== -->
+    <!-- Cards showcasing different features: Slots, Live Games, and Customer Service. -->
+    <section class="cards">
+        <div class="card">
+          <img
+            class="card__background"
+            src="slots.png"
+            alt="Photo of slot machine"
+            width="1920"
+            height="2193"
+            loading="lazy"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Slots</h2>
+              <p class="card__description">
+                    Mais  de  4.500  jogosà  sua  escolha !
+              </p>
+            </div>
+            <button class="card__button">Jogue</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img
+            class="card__background"
+            src="gool.png"
+            alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+            width="1920"
+            height="2193"
+            loading="lazy"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Jogos ao vivo</h2>
+              <p class="card__description">
+                Sinta a emoção de jogar num excelente casino online, com os
+                nossos dealers ao vivo!
+              </p>
+            </div>
+            <button class="card__button">Jogue</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img
+            class="card__background"
+            src="livesupport.jpg"
+            alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+            width="1920"
+            height="2193"
+            loading="lazy"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">Serviço de excelência</h2>
+              <p class="card__description">
+                Pagamentos rápidos, atendimento ao cliente 24 horas por dia, 7 dias por semana
+              </p>
+            </div>
+            <button class="card__button">Ligue</button>
+          </div>
+        </div>
+      </section>
+    <!-- ============================ End Cards Section =========================== -->
+
+    <!-- ============================ Register Call to Action =========================== -->
+    <!-- Call to action to encourage users to register. -->
+    <div class="register-cta">
+        <button class="btn neon-pulse" id="registerButton">
+            <span>REGISTE-SE</span>
+        </button>
+    </div>
+
+    <!-- ============================ End Register Call to Action =========================== -->
+
+    <button class="modeswitch" id="toggleButton">Switch to Light Mode</button>
+    
+</body>
+</html>
